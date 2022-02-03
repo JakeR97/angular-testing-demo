@@ -1,0 +1,10 @@
+<div class="flex-layout">
+  <div>
+    <button id="button-1" (click)="getNumber()">Click Here to Get A Number Instantly</button>
+  </div>
+  <div>
+    <button id="button-2" (click)="getNumberObservable()">Click Here to Get A Number Through Observables</button>
+  </div>
+</div>
+<br>
+<span class="number" *ngIf="num">{{ num }} </span>

@@ -1,0 +1,15 @@
+.flex-layout {
+  display: flex;
+}
+
+button {
+  margin: 10px;
+}
+
+.number {
+  font-size: x-large;
+  padding: 5px;
+  margin-top: 20px;
+  border: black 3px solid;
+  border-radius: 10px;
+}
